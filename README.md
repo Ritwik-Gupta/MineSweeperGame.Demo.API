@@ -10,4 +10,11 @@ This is the service for MineSweeper Demo Game, which acts as a backend for the F
 5. Comprehensive unit tests have been written for this API project, run the unit tests by opening the solution in Visual Studio or some similar IDE and run the unit tests for the Tests Project.
 6. Run the .NET Core API by running the cli command 'dotnet run' from the root folder of your project.
 7. The API should start running on the localhost server 'https://localhost:7266'
-8. Go back to your Angular app home page and Enjoy your MineSweeeper Game.
+8. Go back to your Angular app home page and Enjoy your MineSweeeper Game!
+
+# Notes
+1. This is a small project which demonstates the usage of clean code and Oops concepts when building a system/application.
+2. TDD (Test Driven Design) approach has been followed and concise unit tests have been written for every method.
+3. Design pattern have been followed wherever neccessary.
+
+   
