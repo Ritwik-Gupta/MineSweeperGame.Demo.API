@@ -15,6 +15,6 @@ This is the service for MineSweeper Demo Game, which acts as a backend for the F
 # Notes
 1. This is a small project which demonstates the usage of clean code and Oops concepts when building a system/application.
 2. TDD (Test Driven Design) approach has been followed and concise unit tests have been written for every method.
-3. Design pattern have been followed wherever neccessary.
+3. SOLID principles and common Design patterns have been followed wherever neccessary.
 
    
