@@ -1,7 +1,7 @@
 # MineSweeperGame.Demo.API
 This is the service for MineSweeper Demo Game, which acts as a backend for the Frontend Angular App.
 
-#Installation steps
+# Installation steps
 
 1. Make you have installed and built the frontend Angular app for this service, if not then navigate to - https://github.com/Ritwik-Gupta/MineSweeperGame.Demo.UI, and follow the instructions in Readme.md to run the Angular app
 2. Once your Angular app is up and running, follow the steps below to run the backend API.
