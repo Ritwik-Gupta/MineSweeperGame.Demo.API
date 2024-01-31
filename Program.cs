@@ -11,13 +11,27 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors((options) =>
 {
-    options.AddPolicy("UIPolicy", builder =>
+    if(builder.Environment.IsDevelopment())
     {
-        builder
-        .WithOrigins("http://localhost:4200")
-        .AllowAnyMethod()
-        .AllowAnyHeader();
-    });
+        options.AddPolicy("UIPolicy", builder =>
+        {
+            builder
+            .WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+        });
+    }
+    else
+    {
+        options.AddPolicy("UIPolicy", builder =>
+        {
+            builder
+            .WithOrigins("https://minesweeperui.web.app")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+        });
+    }
+
 });
 
 
