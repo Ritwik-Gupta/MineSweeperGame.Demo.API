@@ -23,7 +23,7 @@ builder.Services.AddCors((options) =>
     }
     else
     {
-        options.AddPolicy("UIPolicy", builder =>
+        options.AddPolicy("UIPolicyProds", builder =>
         {
             builder
             .WithOrigins("https://minesweeperui.web.app")
