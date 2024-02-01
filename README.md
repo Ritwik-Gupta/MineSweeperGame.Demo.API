@@ -1,6 +1,8 @@
 # MineSweeperGame.Demo.API
 This is the service for MineSweeper Demo Game, which acts as a backend for the Frontend Angular App.
 
+The App is deployed on firebase - https://minesweeperui.web.app/ , you can click on this link to play the game on a live server.(Since both the frontend and backend services are hosted on Free tier, you might face some long load times, when loading the applicatin for the first time ~ 60 secs)
+
 # Installation steps
 
 1. Make you have installed and built the frontend Angular app for this service, if not then navigate to - https://github.com/Ritwik-Gupta/MineSweeperGame.Demo.UI, and follow the instructions in Readme.md to run the Angular app
