@@ -12,7 +12,7 @@ This is the service for MineSweeper Demo Game, which acts as a backend for the F
 7. The API should start running on the localhost server 'http://localhost:5049'
 8. Go back to your Angular app home page and Enjoy your MineSweeeper Game!
 
-# How to play
+# How to play (Live server demo)
 1. Go to url https://minesweeperui.web.app/
 2. Select the grid size and the number of mines and click on 'Start Game' buttton.
 ![HomePage](https://github.com/Ritwik-Gupta/MineSweeperGame.Demo.UI/blob/main/src/assets/static/images-readme/home1.png?raw=true)
