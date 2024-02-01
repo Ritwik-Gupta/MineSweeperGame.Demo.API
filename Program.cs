@@ -23,7 +23,7 @@ builder.Services.AddCors((options) =>
     }
     else
     {
-        options.AddPolicy("UIPolicyProds", builder =>
+        options.AddPolicy("UIPolicyProd", builder =>
         {
             builder
             .WithOrigins("https://minesweeperui.web.app")
@@ -42,9 +42,13 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors("UIPolicy");
+}
+else
+{
+    app.UseCors("UIPolicyProd");
 }
 
-app.UseCors("UIPolicy");
 
 app.UseHttpsRedirection();
 
